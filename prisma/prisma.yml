@@ -1,0 +1,9 @@
+#endpoint: ''
+endpoint: https://eu1.prisma.sh/yash-ojha-8c2c6b/gql-node/dev
+
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
+
